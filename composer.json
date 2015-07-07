@@ -1,0 +1,6 @@
+{
+  "name": "emiel/composer_deeper",
+  "autoload": {
+    "psr-4": {"emiel\\printer\\": "src/"}
+  }
+}
