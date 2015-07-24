@@ -1,5 +1,11 @@
 {
   "name": "emiel/composer_deeper",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://php_server/composer_server/web/"
+    }
+  ],
   "autoload": {
     "psr-4": {"emiel\\printer\\": "src/"}
   }
